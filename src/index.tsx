@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { App } from './App';
-import { mergeStyles } from '@fluentui/react';
+import { fontFace, mergeStyles } from '@fluentui/react';
 import reportWebVitals from './reportWebVitals';
 
 // Inject some global styles
@@ -10,6 +10,7 @@ mergeStyles({
     margin: 0,
     padding: 0,
     height: '100vh',
+    fontfamily: 'IBM Plex Sans Thai'
   },
 });
 
